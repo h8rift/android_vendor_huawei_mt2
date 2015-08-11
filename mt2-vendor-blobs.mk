@@ -40,8 +40,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/mt2/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
     vendor/huawei/mt2/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
-    vendor/huawei/mt2/proprietary/vendor/lib/libStDrvInt.so:system/vendor/lib/libStDrvInt.so \
-    vendor/huawei/mt2/proprietary/app/com.qualcomm.location.apk:system/app/com.qualcomm.location.apk \
     vendor/huawei/mt2/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
     vendor/huawei/mt2/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/huawei/mt2/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
@@ -64,8 +62,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/mt2/proprietary/vendor/lib/libc2d30.so:system/vendor/lib/libc2d30.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
-    vendor/huawei/mt2/proprietary/vendor/lib/libllvm-a3xx.so:system/vendor/lib/libllvm-a3xx.so \
-    vendor/huawei/mt2/proprietary/vendor/lib/libllvm-arm.so:system/vendor/lib/libllvm-arm.so \
+    vendor/huawei/mt2/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libOpenVG.so:system/vendor/lib/libOpenVG.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
@@ -105,7 +102,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/mt2/proprietary/vendor/lib/libqmi_csvt_srvc.so:system/vendor/lib/libqmi_csvt_srvc.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/huawei/mt2/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
-    vendor/huawei/mt2/proprietary/app/qcrilmsgtunnel.apk:system/app/qcrilmsgtunnel.apk \
+    vendor/huawei/mt2/proprietary/app/qcrilmsgtunnel/qcrilmsgtunnel.apk:system/app/qcrilmsgtunnel/qcrilmsgtunnel.apk \
     vendor/huawei/mt2/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/huawei/mt2/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/huawei/mt2/proprietary/bin/radish:system/bin/radish \
